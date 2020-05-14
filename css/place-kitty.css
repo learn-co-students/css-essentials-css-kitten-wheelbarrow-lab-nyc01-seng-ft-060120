@@ -14,7 +14,7 @@
 
   
 /*__write_selector_here__*/ 
- [class = #kitty-2]
+ [class=#kitty-2]
  {
   position: absolute;
   z-index: 2;
@@ -25,7 +25,7 @@
 /* Select the image inside the element with an id of basket (using its descendent relationship) */
 
 /*__write_selector_here__*/
-# id=basket{
+#basket img {
   position: absolute;
   z-index: 5;
   top: 291px;
@@ -45,7 +45,7 @@
 /* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
 
 /*__write_selector_here__*/
-#basket [alrt = \"Kitty-5\"]
+img[alt="Kitty 5"]
 {
  position: absolute;
   z-index: 3;
